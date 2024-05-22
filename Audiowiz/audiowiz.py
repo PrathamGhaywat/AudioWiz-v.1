@@ -6,7 +6,6 @@ import os
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
-from pocketsphinx import LiveSpeech, get_model_path
 from scipy.io.wavfile import write
 
 engine = pysx3.init()
