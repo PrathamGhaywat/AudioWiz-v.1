@@ -1,5 +1,9 @@
 # AudioWiz-v.1
 AudioWiz is a python library that uses popular text-to-speech, voice and audio libraries to let developers work with it in a easy way. You are viewing the v.1 repository of it.
+## Installation:
+>Command: `pip install AudioWiz`
+
+> I have only tested it on windows, since it is the only computer I have. But I would appreciate any Linux, MacOS or Unix user giving me feedback, if it works fine on your OS!
 ## Types:
 AudioWiz v.1 has currently two types: 
 - audiowiz
@@ -29,9 +33,29 @@ def open_github():
           webbrowser.open("https://www.github.com")
 
 
-voice_command("opengithub", open_github()) #Remember to type the user command together, or else the function will be outputed as soon as the user says the first word!
+voice_command("opengithub", open_github()) 
+'''
+Remember to type the user command together, or else the function will be outputed as soon as the user says the first word!
+'''
 ```
 #
 ## Licence:
-It is a standard MIT License()
+It is a standard MIT License(https://github.com/PrathamGhaywat/AudioWiz-v.1/blob/main/LICENSE)
 
+*For more information, contact me through my email Pratham.Ghaywat@outlook.com*
+
+#
+## Documentation
+You can view the documentation here:
+https://github.com/PrathamGhaywat/AudioWiz-v.1/blob/main/Documentation.md
+
+I am planning on creating a website that will display the documentation, but that is for later!
+#
+## Roadmap
+I am currently planning on what are the next steps of the project, but here is high level overview of functions that I want to implement:
+- `record(channel, output_path)` somehow it doesn't work on my computer so I want to insure it is working, before I publish it!
+- `voice_recognize(sample_voice)` This will recognize the voice and provide if the voices match or not
+- `convert_stt(channel, output_path)` This will convert speech to text(stt) and output it in a .txt file.
+- There are more functions, but I put the most important ones I want to create.
+
+Well that's it!
