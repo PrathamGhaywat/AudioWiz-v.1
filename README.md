@@ -4,7 +4,7 @@ AudioWiz is a python library that uses popular text-to-speech, voice and audio l
 Command: `pip install AudioWiz`
 
 Alternatively if that doesn't work for you, you can go ahead and dowbload the files you need or download the whole repository.
-After that you can use the requirements.txt to download the necessary packages.(`pip install -r requirements.txt`)
+After that you can use the requirements.txt to download the necessary packages. Just copy the pip line and paste it into your terminal. This will download all the necessary packages!
 
 Note the there is one branch for each version, so be sure to download it from the version branch you actually need.
 
