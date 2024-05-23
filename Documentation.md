@@ -17,6 +17,6 @@ Please make sure to remove all non-text elements(e.g: images) out of the PDF and
 ### voicewiz contains these functions:
 1. `def voice_command(user_speech ,maschine_command, model_lang, model_dict_lang)` This takes in what the user says and executes the command you provided. `model_lang` and `model_dict_lang` are modifiable, but you don't need to do that if you are giving it input in English. But if you are giving inputs in another language, you might want to refer to the `pocketsphinx` documentation
 
-Thats actuall all from the current version 0.0.1. 
+Thats actually all from the current version 0.0.1. 
 
 Happy Coding!
