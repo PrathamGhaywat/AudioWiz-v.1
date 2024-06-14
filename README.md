@@ -8,7 +8,7 @@ After that you can use the requirements.txt to download the necessary packages. 
 
 Note the there is one branch for each version, so be sure to download it from the version branch you actually need.
 
-> I have only tested it on windows, since it is the only computer I have. But I would appreciate any Linux, MacOS or Unix user giving me feedback, if it works fine on your OS!
+> I have only tested it on windows, since it is the only computer I have. But I would appreciate any Linux, MacOS or FreeBSD user giving me feedback, if it works fine on your OS!
 ## Types:
 AudioWiz v.1 has currently two types: 
 - audiowiz
